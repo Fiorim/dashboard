@@ -1,9 +1,25 @@
-.card {
-    max-width: 400px;
+.headers-align {
+    max-width: 800px;
     margin: 0 auto;
+    flex-basis: 0;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
 }
-  
-.header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
+.mat-content{
+    align-items: center;
 }
+
+.avatar-image {
+    height:40px;
+    border-radius:50%;
+}
+
+.details {
+    margin-left: 5px;
+}
+
+.header-icon {
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-top: 2px;}
