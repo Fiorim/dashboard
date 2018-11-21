@@ -1,0 +1,8 @@
+<mat-card class="chart-bar-component">
+    <header>Aplications Dashboard</header>
+    <section class="chart-row">
+        <app-donut-chart [chartInfo]="inProgressChartInfo" [chartData]="chartData"></app-donut-chart>
+        <app-donut-chart [chartInfo]="pendingChartInfo" [chartData]="chartData"></app-donut-chart>
+        <app-donut-chart [chartInfo]="completedChartInfo" [chartData]="chartData"></app-donut-chart>
+    </section>
+</mat-card>

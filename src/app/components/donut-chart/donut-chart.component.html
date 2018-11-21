@@ -1,0 +1,11 @@
+<section class="donut-chart-component">
+    <header class="chart-name">{{ chartInfo.name }}</header>
+    <google-chart 
+        [type]="'PieChart'"
+        [data]="chartData"
+        [options]="chartOptions"
+        [width]="200"
+        [height]="200">
+    </google-chart>
+    <span class="chart-value">{{ chartData[chartInfo.position][1] }}</span>
+</section>

@@ -1,22 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatCardModule, MatExpansionModule, MatCommonModule, MatIconModule, MatFormFieldModule } from '@angular/material';
+import { MatCardModule, MatExpansionModule, MatIconModule } from '@angular/material';
+import { GoogleChartsModule } from 'angular-google-charts';
+
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
+import { DonutChartComponent } from './components/donut-chart/donut-chart.component';
+import { ChartBarComponent } from './components/chart-bar/chart-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    DonutChartComponent,
+    ChartBarComponent
 ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
     MatExpansionModule,
-    MatIconModule
+    MatIconModule,
+    GoogleChartsModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

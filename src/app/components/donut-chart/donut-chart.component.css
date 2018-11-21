@@ -1,0 +1,16 @@
+.donut-chart-component {
+    position: relative;
+}
+
+.chart-name {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+.chart-value {
+    font-size: 42px;
+    position: absolute;
+    top: 32%;
+    left: 45%;
+}
