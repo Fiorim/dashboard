@@ -1,4 +1,5 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation, OnInit } from '@angular/core';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-header',
@@ -6,8 +7,22 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./header.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  name = '';
+  email = '';
+  phone = '';
+  address = '';
+
+  constructor(private userService: UserService) { }
+
+  ngOnInit() {
+    this.userService.getUser().subscribe(user => {
+      this.name = user.name;
+      this.email = user.email;
+      this.phone = user.phone;
+      this.address = user.address;
+    });
+  }
 
 }

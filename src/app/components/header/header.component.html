@@ -2,16 +2,16 @@
   <mat-expansion-panel>
     <mat-expansion-panel-header class="card-header">
         <img class="avatar-image" src="./../../../assets/avatar.jpg" alt='profile-picture' >
-        <span class="user-name">John Papa</span>
+        <span class="user-name">{{ name }}</span>
     </mat-expansion-panel-header>
     <mat-panel-description>
-      <mat-icon class="header-icon">email</mat-icon> <span class="details">john.papa@gmail.com</span>
+      <mat-icon class="header-icon">email</mat-icon> <span class="details">{{ email }}</span>
     </mat-panel-description>
     <mat-panel-description>
-      <mat-icon class="header-icon">phone</mat-icon> <span class="details">12 345 6789</span>
+      <mat-icon class="header-icon">phone</mat-icon> <span class="details">{{ phone }}}</span>
     </mat-panel-description>
     <mat-panel-description>
-      <mat-icon class="header-icon">location_on</mat-icon> <span class="details">26, Seafield Road West - D3 - Dublin</span>
+      <mat-icon class="header-icon">location_on</mat-icon> <span class="details">{{ address }}</span>
     </mat-panel-description>
   </mat-expansion-panel>
 
