@@ -12,6 +12,9 @@
     height:40px;
     border-radius:50%;
 }
+.user-name {
+    font-weight: bold;
+}
 
 .details {
     margin-left: 5px;
