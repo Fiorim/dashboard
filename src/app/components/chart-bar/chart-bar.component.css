@@ -3,7 +3,6 @@ header {
     margin-bottom: 20px;
 }
 .chart-bar-component {
-    max-width: 800px;
     margin: 5px auto;
     box-sizing: border-box;
 }

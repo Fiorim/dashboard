@@ -9,13 +9,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { DonutChartComponent } from './components/donut-chart/donut-chart.component';
 import { ChartBarComponent } from './components/chart-bar/chart-bar.component';
+import { TaskItemComponent } from './components/task-item/task-item.component';
+import { TaskListComponent } from './components/task-list/task-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     DonutChartComponent,
-    ChartBarComponent
+    ChartBarComponent,
+    TaskItemComponent,
+    TaskListComponent
 ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+.task-card {
+    margin: 4px 0;
+    border-left: solid 5px;
+}
+.title {
+    font-weight: bold;
+    display: block;
+}
+.description {
+    display: block;
+}
