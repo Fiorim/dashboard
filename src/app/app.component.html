@@ -1,5 +1,8 @@
 <section class="app">
     <app-header></app-header>
     <app-chart-bar></app-chart-bar>
-    <app-task-list></app-task-list>
+    <section class="flex">
+        <app-task-list></app-task-list>
+        <p-calendar [(ngModel)]="value" [inline]="true"></p-calendar>
+    </section>
 </section>

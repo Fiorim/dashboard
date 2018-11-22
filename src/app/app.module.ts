@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule, MatExpansionModule, MatIconModule } from '@angular/material';
 import { GoogleChartsModule } from 'angular-google-charts';
+import {CalendarModule} from 'primeng/calendar';
+
 
 
 import { AppComponent } from './app.component';
@@ -11,6 +13,7 @@ import { DonutChartComponent } from './components/donut-chart/donut-chart.compon
 import { ChartBarComponent } from './components/chart-bar/chart-bar.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { TaskListComponent } from './components/task-list/task-list.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,6 +31,8 @@ import { TaskListComponent } from './components/task-list/task-list.component';
     MatExpansionModule,
     MatIconModule,
     GoogleChartsModule.forRoot(),
+    CalendarModule,
+     FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

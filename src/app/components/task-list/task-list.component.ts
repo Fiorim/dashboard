@@ -29,6 +29,11 @@ export class TaskListComponent implements OnInit {
       description: 'Give a overview of the project to the new developer',
       color: '#eee022'
     },
+    {
+      title: 'Meeting',
+      description: 'Sprint Planning',
+      color: '#0066ff'
+    }
   ];
 
   constructor() { }

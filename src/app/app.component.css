@@ -2,3 +2,11 @@
     max-width: 800px;
     margin: 0 auto;
 }
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+app-task-list { 
+    flex-grow: 1;
+    margin-right: 4px;
+}
