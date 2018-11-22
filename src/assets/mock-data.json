@@ -6,9 +6,9 @@
         "address": "26, Seafield Road West - D3 - Dublin"
     },
     "applications": {
-        "inProgress": 5,
+        "inProgress": 4,
         "pending": 2,
-        "completed": 8
+        "completed": 6
     },
     "tasks": [
         {
